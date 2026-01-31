@@ -5,7 +5,6 @@ title: Home
 
 # Your Name
 **Data Scientist / ML Engineer** · Toronto, ON  
-<span class="muted">“I build end-to-end ML systems: data pipelines → modeling → evaluation → deployment</span>
 
 <div style="margin:14px 0 22px;">
   <a class="btn" href="./projects">View Projects</a>
