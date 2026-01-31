@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Your Name
+# Gary Chen
 **Data Scientist / ML Engineer** · Toronto, ON  
 
 <div style="margin:14px 0 22px;">
