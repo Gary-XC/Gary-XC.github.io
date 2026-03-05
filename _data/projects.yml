@@ -4,6 +4,12 @@
   # report: "assets/reports/stats-report.pdf"
   # video: "assets/videos/stats-demo.mp4"
 
+- title: "PATH 411 – Applied Data Science in Molecular Medicine"
+  description: "Queens Course where I completed assignments for PATH 411: Applied Data Science in Molecular Medicine, a hands-on course focused on applying statistics and machine learning to high-dimensional genomic datasets."
+  repo: "https://github.com/Gary-XC/Path-411"
+  report: "assets/reports/Capstone Project - Report.pdf"
+  # video: "assets/videos/stats-demo.mp4"
+
 - title: "Loan Default Predictor"
   description: "Predictive modeling project focusing on feature engineering, statistical testing, and correlation analysis to forecast loan defaults."
   repo: "https://github.com/Gary-XC/loan-def"
