@@ -1,9 +1,2 @@
 title: "Gary Chen — Data Science Portfolio"
 description: "Data science projects, skills, and resume."
-theme: minima
-
-header_pages:
-  - projects.md
-  - resume.md
-  - about.md
-

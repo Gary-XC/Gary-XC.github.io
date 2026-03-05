@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<h2 class="section-title">Technical Skills</h2>
+<div class="skills-grid">
+    {% for category in site.data.skills %}
+    <div class="skill-category">
+        <h3>{{ category.category }}</h3>
+        <div class="skill-tags">
+            {% for item in category.items %}
+            <span class="skill-tag">{{ item }}</span>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h2 class="section-title">Featured Projects</h2>
+
+{% for project in site.data.projects %}
+<div class="project-card">
+    <div class="project-media">
+        {% if project.video %}
+        <video controls muted preload="metadata">
+            <source src="{{ project.video }}" type="video/mp4">
+        </video>
+        {% elsif project.image %}
+        <img src="{{ project.image }}" alt="Screenshot of {{ project.title }}">
+        {% endif %}
+    </div>
+
+    <div class="project-info">
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.description }}</p>
+        <div class="links">
+            <a href="{{ project.repo }}" target="_blank" class="btn btn-primary">View GitHub Repo</a>
+            {% if project.report %}
+            <a href="{{ project.report }}" download class="btn btn-secondary">Download PDF Report</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}
