@@ -7,7 +7,7 @@
 - title: "PATH 411 – Applied Data Science in Molecular Medicine"
   description: "Queens Course where I completed assignments for PATH 411: Applied Data Science in Molecular Medicine, a hands-on course focused on applying statistics and machine learning to high-dimensional genomic datasets."
   repo: "https://github.com/Gary-XC/Path-411"
-  report: "assets/reports/Capstone Project - Report.pdf"
+  report: "assets/reports/Capstone_Project_Report.pdf"
   # video: "assets/videos/stats-demo.mp4"
 
 - title: "Loan Default Predictor"
